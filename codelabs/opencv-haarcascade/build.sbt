@@ -2,10 +2,10 @@ lazy val root = (project in file(".")).
   settings(
     name := "feature_detector",
     version := "1.0",
-    scalaVersion := "2.10.6"
+    scalaVersion := "2.12.10"
   )
 
-libraryDependencies += "org.apache.spark" %% "spark-core" % "1.6.2" % "provided"
+libraryDependencies += "org.apache.spark" %% "spark-core" % "3.1.1" % "provided"
 
 libraryDependencies += "org.bytedeco" % "javacv" % "1.2"
 
